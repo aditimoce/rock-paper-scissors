@@ -1,0 +1,66 @@
+.gametitle {
+	display: flex;
+	justify-content: center;
+}
+
+.playbuttons {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+#rockbutton, #paperbutton, #scissorsbutton {
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	display: inline-block;
+	font-size: 18px;
+	border: 3px solid lightgray;
+	border-radius: 6px;
+	transition-duration: 0.4s;
+}
+
+#rockbutton:hover, #paperbutton:hover, #scissorsbutton:hover{
+	background-color: white;
+	color: black;
+}
+
+.score {
+	display: flex;
+	justify-content: center;
+}
+
+.scorecontainer {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+
+}
+
+.winner {
+	display: flex;
+	justify-content: center;
+}
+
+.playagainbutton {
+	display: flex;
+	justify-content: center;
+}
+
+#playagainbtn {
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	display: inline-block;
+	font-size: 18px;
+	border: 3px solid lightgray;
+	border-radius: 6px;
+	transition-duration: 0.4s;
+}
+
+#playagainbtn:hover {
+	background-color: white;
+	color: black;
+}
