@@ -6,4 +6,6 @@ You can play against the computer, that randomly selects between rock, paper or 
 
 The game stops when the player or the computer wins 5 rounds.
 
-The UI is very basic.
+Basic UI.
+
+[Demo](https://aditimoce.github.io/rock-paper-scissors/)
